@@ -1,0 +1,158 @@
+html{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	margin:0 0 70px 0;
+}
+
+
+header{
+
+	height:300px;
+	background-color:#1cba76;
+	padding-top:10%; /*única solución que he encontrado para "centrar" el título, pero no está centrado realmente */
+	
+
+
+
+}
+
+.maintitle{
+
+	max-width:30em;
+	/*background-color:red;*/
+	margin:auto;/*para centrarlo verticalmente, si ponemos position absolute al header y aquí relative se monta la liada padre*/
+	
+
+
+}
+
+
+h1{
+
+	font-family:Futura;
+	letter-spacing:.3em;
+	color:white;
+	text-align:center;
+	
+	margin-top:0;
+}
+
+h1 hr {
+
+	width:20em;
+}/*¿¿¿¿POR QUÉ ESTO NO FUNCIONA???!!!*/
+
+
+.llarg{
+	width:20em;
+}
+
+hr{
+	width:10em;
+
+	
+}
+
+
+
+
+
+.sections{
+	max-width:1000px;
+	margin:0 auto;
+	
+
+}
+
+
+
+
+
+h2{
+	font-family:Futura;
+	text-align:center;
+	border-bottom:.15em solid #1cba76;
+	padding:2em 0;
+	margin-bottom:2em;
+	color:#454545;
+
+
+}
+
+article{
+	
+	width:25%;
+	display:inline-block;
+	vertical-align:top;
+	padding:0 2.5em 2.5em 2.5em;
+}
+
+article p{
+
+	display:block;
+	font-family: Helvetica,Arial,sans-serif;
+	color:#454545;
+}
+
+article p a{
+	color:#1cba76;
+	text-decoration:none;
+
+}
+
+
+article p a:hover{
+	background-color:#1cba76;
+	text-decoration:none;
+	color:white;
+	
+}
+
+h3{
+	
+	font-family: Futura;
+	color:#454545;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	position:fixed;
+	bottom: 0;
+  	left: 0;
+	width:100%;
+	height:70px;
+	background-color:#454545;
+}
+
+
+h5 a{
+	font-family:Futura;
+	color:#1cba76;
+	text-decoration:none;
+	float:right;
+	font-size:1.5em;
+	margin-right:3em;
+}
+
+
+
+
+
+
+
+
+
