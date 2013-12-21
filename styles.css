@@ -22,7 +22,7 @@ header{
 
 .maintitle{
 
-	max-width:30em;
+	max-width:40em;
 	/*background-color:red;*/
 	margin:auto;/*para centrarlo verticalmente, si ponemos position absolute al header y aquí relative se monta la liada padre*/
 	
@@ -33,7 +33,7 @@ header{
 
 h1{
 
-	font-family:Futura;
+	font-family:Futura, CenturyGothic, arial;
 	letter-spacing:.3em;
 	color:white;
 	text-align:center;
